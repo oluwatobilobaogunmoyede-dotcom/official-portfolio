@@ -138,22 +138,10 @@ nav summary::-webkit-details-marker {
 /* CIRCULAR PROFILE IMAGE */
 
 .avatar {
-    width: 280px;
-    height: 280px;
-    flex-shrink: 0;
-    padding: 7px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
-
-    background: linear-gradient(
-        135deg,
-        #D4A017,
-        #FFD966,
-        #8C6500
-    );
-
-    box-shadow: 0 15px 50px rgba(212, 160, 23, 0.25);
-
-    transition: 0.4s ease;
+    overflow: hidden;
 }
 
 .avatar img {
@@ -161,7 +149,7 @@ nav summary::-webkit-details-marker {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    border-radius: 50%;
+    display: block;
 }
 
 .avatar:hover {
